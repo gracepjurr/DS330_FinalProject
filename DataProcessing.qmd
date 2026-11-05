@@ -1,0 +1,38 @@
+---
+title: "DS330_FinalProj"
+format: html
+self-contained: true
+editor: visual
+---
+
+## Load in packages
+
+```{r}
+#| label: setup 
+#| include: false
+#| library(tidyverse)
+#| library(tidymodels)
+#| library(readr)
+```
+
+## Importing Data
+
+1.  Import the data
+
+```{r}
+
+```
+
+## Wrangling Data
+
+
+```{r}
+
+```
+
+## Export Data as CSV
+```{r}
+ # read data as csv
+write_csv()
+```
+
