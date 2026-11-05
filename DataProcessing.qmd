@@ -10,9 +10,10 @@ editor: visual
 ```{r}
 #| label: setup 
 #| include: false
-#| library(tidyverse)
-#| library(tidymodels)
-#| library(readr)
+
+library(tidymodels)
+library(readxl)
+library(readr)
 ```
 
 ## Importing Data
@@ -21,16 +22,17 @@ editor: visual
 
 ```{r}
 
+sharkData <- read_excel("incidentData.xlsx")
 ```
 
 ## Wrangling Data
 
 
 ```{r}
-
+head(sharkData)
 ```
 
-## Export Data as CSV
+## Export Data as CSV (or excel whichever works)
 ```{r}
  # read data as csv
 write_csv()
